@@ -27,7 +27,7 @@ pip install ttkbootstrap
 
 This time we put all code into one Class and let our code become more concise and reduce  lines of code. We just focus on function name and self. It is easier to read all functions..
 
-Let us run our laptop app, and we could change it to a dark theme.
+Let us run our laptop app, and we could change it to a dark theme. You could use PyInstaller if you need it.
 
 <p align="center">
   <img src="screenshot/2.jpg" width="510" title="hover text">
@@ -70,4 +70,10 @@ Now it is working time now, and employee Beta could clock in, and the camera wil
   <img src="screenshot/10.jpg" width="510" title="hover text">
 </p>
 
-We do not explain more about laptop app functions; we just pasted some screenshots in there.
+We do not want to explain more about laptop app functions; we just pasted some screenshots in there.
+
+Some people may need a LAN network to support your business (factory, warehouse, etc.). For instance, you could change this app to run on two laptops in one LAN network. And managers could check database details (self-portrait image) on their laptops. We do not need to buy expensive cloud or internet. We just need a router and wired connection for our hardware and software.
+
+In our situation, we do not need to build a small web server to transfer data. You could build your web server in your production environment.
+
+When we are using the OpenCV library in our app, we will get cpp errors. Which means when you are using Python, you may use cpp functions. You do not need to worry about which language you are using. You need to think about how you can realize the function you want.
