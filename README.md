@@ -25,7 +25,7 @@ pip install ttkbootstrap
   <img src="screenshot/1.jpg" width="510" title="hover text">
 </p>
 
-This time we put all code into one Class and let our code become more concise and reduce  lines of code. We just focus on function name and self. It is easier to read all functions..
+This time we put all code into one Class and let our code become more concise and reduce  lines of code. We just focus on function name and self. It is easier to read all functions.
 
 Let us run our laptop app, and we could change it to a dark theme. You could use PyInstaller if you need it.
 
