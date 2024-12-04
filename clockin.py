@@ -27,7 +27,7 @@ class App:
         self.conn = sqlite3.connect(r"Your database working directory\clock-in.db")
         self.cursor = self.conn.cursor()
 
-        # # # Create a table if it doesn't exist
+        # # # Create five tables if it doesn't exist
         self.cursor.execute('''CREATE TABLE IF NOT EXISTS clockIn_records (id INTEGER PRIMARY KEY, name TEXT, clockIn_photo BLOB, time TEXT)''')
         self.cursor.execute('''CREATE TABLE IF NOT EXISTS startBreak_records (id INTEGER PRIMARY KEY, name TEXT, startBreak_photo BLOB, time TEXT)''')
         self.cursor.execute('''CREATE TABLE IF NOT EXISTS beginWork_records (id INTEGER PRIMARY KEY, name TEXT, beginWork_photo BLOB, time TEXT)''')
